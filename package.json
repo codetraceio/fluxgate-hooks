@@ -1,0 +1,23 @@
+{
+  "name": "rex-hooks",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codetraceio/rex-hooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codetraceio/rex-hooks/issues"
+  },
+  "homepage": "https://github.com/codetraceio/rex-hooks#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "rex-store": "0.0.6"
+  }
+}
