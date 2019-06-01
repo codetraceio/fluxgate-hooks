@@ -14,6 +14,24 @@
   dependencies:
     "@types/jest-diff" "*"
 
+"@types/prop-types@*":
+  version "15.7.1"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.1.tgz#f1a11e7babb0c3cad68100be381d1e064c68f1f6"
+  integrity sha512-CFzn9idOEpHrgdw8JsoTkaDDyRWk1jrzIV8djzcgpq0y9tG4B4lFT+Nxh52DVpDXV+n4+NPNv7M1Dj5uMp6XFg==
+
+"@types/react@^16.8.19":
+  version "16.8.19"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.19.tgz#629154ef05e2e1985cdde94477deefd823ad9be3"
+  integrity sha512-QzEzjrd1zFzY9cDlbIiFvdr+YUmefuuRYrPxmkwG0UQv5XF35gFIi7a95m1bNVcFU0VimxSZ5QVGSiBmlggQXQ==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+csstype@^2.2.0:
+  version "2.6.5"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.5.tgz#1cd1dff742ebf4d7c991470ae71e12bb6751e034"
+  integrity sha512-JsTaiksRsel5n7XwqPAfB0l3TFKdpjW/kgAELf9vrb5adGA7UCPLajKK5s3nFrcFm3Rkyp/Qkgl73ENc1UY3cA==
+
 events@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/events/-/events-3.0.0.tgz#9a0a0dfaf62893d92b875b8f2698ca4114973e88"
@@ -60,10 +78,10 @@ react@^16.8.6:
     prop-types "^15.6.2"
     scheduler "^0.13.6"
 
-rex-store@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/rex-store/-/rex-store-0.0.6.tgz#1d95cfc1a58bb51f47b2535142459e9380d80606"
-  integrity sha512-QkGOG1BzGYTmk+MWWHI9hL+ddSaZtm+xyBbBSDutUKhzgwZlkudjcpcZwrpV/v5YdeKEyTpQIkG6W4BiFiixtg==
+rex-store@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/rex-store/-/rex-store-0.0.7.tgz#a68bb026c88ebcf42b6ec53e089b50e3c71b0392"
+  integrity sha512-xGYZdipjqsruHmJGyfGn3DW2uGTNEIslgL18NJNkgyICruqRejvzO60tSLJdjjhEHWJ7j7itXB0MICPuOgkrJg==
   dependencies:
     "@types/jest" "^24.0.13"
     events "^3.0.0"
@@ -75,3 +93,8 @@ scheduler@^0.13.6:
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+
+typescript@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.1.tgz#ba72a6a600b2158139c5dd8850f700e231464202"
+  integrity sha512-64HkdiRv1yYZsSe4xC1WVgamNigVYjlssIoaH2HcZF0+ijsk5YK2g0G34w9wJkze8+5ow4STd22AynfO6ZYYLw==
