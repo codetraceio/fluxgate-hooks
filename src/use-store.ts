@@ -3,7 +3,7 @@ import { EVENT_CHANGE } from "rex-store";
 import { IStore } from "rex-store/typescript/interfaces";
 
 export function useStore<T>(store: IStore<T>) {
-  const [state, setState] = useState({});
+  const [state, setState] = useState(store.getState());
 
   useEffect(() => {
     const eventListener = (storeState: T) => {
