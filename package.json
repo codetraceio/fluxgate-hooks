@@ -1,6 +1,6 @@
 {
   "name": "rex-hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/index.js",
   "typings": "typescript/index.d.ts",
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/codetraceio/rex-hooks#readme",
   "dependencies": {
     "react": "^16.8.6",
-    "rex-store": "0.0.7"
+    "rex-store": "^0.1.0"
   },
   "jest": {
     "transform": {

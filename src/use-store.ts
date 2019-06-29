@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { EVENT_CHANGE } from "rex-store";
+import { CHANGE_EVENT } from "rex-store";
 import { IStore } from "rex-store/typescript/interfaces";
 
 export function useStore<T>(store: IStore<T>) {
@@ -9,9 +9,9 @@ export function useStore<T>(store: IStore<T>) {
     const eventListener = (storeState: T) => {
       setState(storeState);
     };
-    store.on(EVENT_CHANGE, eventListener);
+    store.on(CHANGE_EVENT, eventListener);
     return () => {
-      store.off(EVENT_CHANGE, eventListener);
+      store.off(CHANGE_EVENT, eventListener);
     };
   }, []);
 
