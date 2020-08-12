@@ -20,10 +20,17 @@ csstype@^2.2.0:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.5.tgz#1cd1dff742ebf4d7c991470ae71e12bb6751e034"
   integrity sha512-JsTaiksRsel5n7XwqPAfB0l3TFKdpjW/kgAELf9vrb5adGA7UCPLajKK5s3nFrcFm3Rkyp/Qkgl73ENc1UY3cA==
 
-events@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/events/-/events-3.0.0.tgz#9a0a0dfaf62893d92b875b8f2698ca4114973e88"
-  integrity sha512-Dc381HFWJzEOhQ+d8pkNon++bk9h6cdAoAj4iE6Q4y6xgTzySWXlKn05/TVNpjnfRqi/X0EpJEJohPjNI3zpVA==
+events@^3.1.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/events/-/events-3.2.0.tgz#93b87c18f8efcd4202a461aec4dfc0556b639379"
+  integrity sha512-/46HWwbfCX2xTawVfkKLGxMifJYQBWMwY1mjywRtb4c9x8l5NP3KoJtnIOiL1hfdRkIuYhETxQlo62IF8tcnlg==
+
+fluxgate@^0.1.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/fluxgate/-/fluxgate-0.2.0.tgz#ff40c3b5c0ffd7c46f07fb475bda4dc6b7e98a48"
+  integrity sha512-lAgZdS6J8AgjIaCztcHzrXY12rP9UhBv2sZw4BayBEgnWwBcBtSXw/4y4iHW20gxvY4lzHmvty5hUWGEsS/quw==
+  dependencies:
+    events "^3.1.0"
 
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
@@ -65,13 +72,6 @@ react@^16.8.6:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.13.6"
-
-rex-store@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/rex-store/-/rex-store-0.1.0.tgz#d84613d86834936865c20dd1aa7dd675b05758c9"
-  integrity sha512-xkbnP4QTaKrNwBwaiwVLoSkeH0EiTPihUrtMAOoEL3y6GqRJ3oE54xD23HAnz0OImUYblW4YmKE+ntuAQHtvsg==
-  dependencies:
-    events "^3.0.0"
 
 scheduler@^0.13.6:
   version "0.13.6"

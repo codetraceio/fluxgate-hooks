@@ -1,5 +1,5 @@
 {
-  "name": "rex-hooks",
+  "name": "fluxgate-hooks",
   "version": "0.1.2",
   "description": "",
   "main": "dist/index.js",
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codetraceio/rex-hooks.git"
+    "url": "git+https://github.com/codetraceio/fluxgate-hooks.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codetraceio/rex-hooks/issues"
+    "url": "https://github.com/codetraceio/fluxgate-hooks/issues"
   },
-  "homepage": "https://github.com/codetraceio/rex-hooks#readme",
+  "homepage": "https://github.com/codetraceio/fluxgate-hooks#readme",
   "dependencies": {
     "react": "^16.8.6",
-    "rex-store": "^0.1.0"
+    "fluxgate": "^0.2.0"
   },
   "jest": {
     "transform": {
