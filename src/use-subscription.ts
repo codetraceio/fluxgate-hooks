@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { IStore } from "rex-store/typescript/interfaces";
+import { IStore } from "fluxgate/typescript/interfaces";
 
 export function useSubscription(
   store: IStore<any>,

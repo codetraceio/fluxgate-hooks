@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { CHANGE_EVENT } from "rex-store";
-import { IStore } from "rex-store/typescript/interfaces";
+import { CHANGE_EVENT } from "fluxgate";
+import { IStore } from "fluxgate/typescript/interfaces";
 
 export function useStore<T>(store: IStore<T>) {
   const [state, setState] = useState(store.getState());
