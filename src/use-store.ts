@@ -10,6 +10,13 @@ export function useStore<T>(store: IStore<T>) {
       setState(storeState);
     };
     store.on(CHANGE_EVENT, eventListener);
+
+    // Store can be changed before calling useEffect
+    const newState = store.getState();
+    if (newState !== state) {
+      setState(newState);
+    }
+
     return () => {
       store.off(CHANGE_EVENT, eventListener);
     };
