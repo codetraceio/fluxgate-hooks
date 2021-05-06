@@ -20,6 +20,18 @@ csstype@^2.2.0:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.5.tgz#1cd1dff742ebf4d7c991470ae71e12bb6751e034"
   integrity sha512-JsTaiksRsel5n7XwqPAfB0l3TFKdpjW/kgAELf9vrb5adGA7UCPLajKK5s3nFrcFm3Rkyp/Qkgl73ENc1UY3cA==
 
+events@^3.1.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
+  integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
+
+fluxgate@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/fluxgate/-/fluxgate-1.0.0.tgz#a6e153e602ae02760b0b8ec59198e22e0940438a"
+  integrity sha512-DHzjwWarK09t0Cqvlmyy58hOI245RLcxTUEf3Y/XC1LkDLkKCryoyeF5i01C1Y/snm4wLgBS6hwJIStgaSHKtw==
+  dependencies:
+    events "^3.1.0"
+
 typescript@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.1.tgz#ba72a6a600b2158139c5dd8850f700e231464202"
