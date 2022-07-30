@@ -1,3 +1,5 @@
-export { useStore } from "./use-store";
-export { useSubscription } from "./use-subscription";
-export { useSubscriptionIf } from "./use-subscription-if";
+export { useStore } from "./useStore";
+export { useActions } from "./useActions";
+export { useSubscription } from "./useSubscription";
+export { useSubscriptionIf } from "./useSubscriptionIf";
+export { StoreProvider } from "./StoreProvider";

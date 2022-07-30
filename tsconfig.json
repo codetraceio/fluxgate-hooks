@@ -1,15 +1,23 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "outDir": "./dist",
     "noImplicitAny": true,
     "module": "commonjs",
+    "declarationDir": "typescript",
+    "moduleResolution": "node",
     "target": "es5",
     "jsx": "react",
     "lib": ["es2017", "dom"],
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "removeComments": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
-  }
+    ],
+    "declaration": true
+  },
+  "include": [
+    "./src/index.ts"
+  ]
 }

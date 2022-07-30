@@ -1,8 +1,11 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { CHANGE_EVENT } from "fluxgate";
 import { Store } from "fluxgate/typescript/interfaces";
+import { StoreContent } from "./storeContext";
 
-export function useStore<T>(store: Store<T>) {
+export function useStore<T>(storeName: string | Store<T>) {
+  const storeContext = useContext(StoreContent);
+  const store = typeof storeName === "string" ? storeContext.stores[storeName] : storeName;
   const [state, setState] = useState(store.getState());
 
   useEffect(() => {
@@ -22,5 +25,5 @@ export function useStore<T>(store: Store<T>) {
     };
   }, []);
 
-  return state;
+  return state as T;
 }

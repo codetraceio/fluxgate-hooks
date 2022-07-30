@@ -1,6 +1,6 @@
 {
   "name": "fluxgate-hooks",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "dist/index.js",
   "typings": "typescript/index.d.ts",
@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/codetraceio/fluxgate-hooks#readme",
   "peerDependencies": {
-    "fluxgate": "^1.0.0",
-    "react": "^16.8.6"
+    "fluxgate": "^1.1.0",
+    "react": "^16"
   },
   "jest": {
     "transform": {
@@ -28,7 +28,10 @@
     }
   },
   "devDependencies": {
-    "@types/react": "^16.8.19",
-    "typescript": "^3.5.1"
-  }
+    "@types/react": "^16",
+    "fluxgate": "^1.1.0",
+    "react": "^16",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {}
 }
